@@ -1,17 +1,3 @@
-# 🕶️ Willkommen in der Datenstruktur der Verdammten
-
-Dies ist keine Demo.  
-Dies ist eine Rekonstruktion deiner digitalen Existenz.  
-
-Wer bist du in der Datenbank?  
-Wann warst du emotional am leichtesten zu lenken?  
-Wie viele Sekunden hat man dich beobachtet?
-
-Willkommen bei **mindcontrol-db**  
-> *Ein datenbasiertes Kunstwerk gegen algorithmische Manipulation.*
-
-
-
 # 🧠 mindcontrol-db
 
 > *Ein künstlerisch-aufklärerisches Projekt über Datenstrukturen, Datensammlung und digitale Einflussnahme.*
@@ -23,6 +9,10 @@ Willkommen bei **mindcontrol-db**
 **mindcontrol-db** ist ein Open-Source-Aufklärungsprojekt, das auf kreative Weise zeigt,  
 wie strukturierte Daten – wie Beiträge, Emotionen, Likes und Nutzerprofile – dazu verwendet werden können,  
 das Verhalten von Menschen zu analysieren, zu beeinflussen oder sogar gezielt zu manipulieren.
+
+Wer bist du in der Datenbank?  
+Wann warst du emotional am leichtesten zu lenken?  
+Wie viele Sekunden hat man dich beobachtet?
 
 Mithilfe einfacher SQL-Logik und realitätsnaher Szenarien vermittelt dieses Projekt,  
 was sich hinter dem berüchtigten „Algorithmus“ verbirgt – und warum das jeden betrifft.
