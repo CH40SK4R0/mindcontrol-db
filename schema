@@ -1,0 +1,73 @@
+-- Tabelle: Benutzer
+CREATE TABLE benutzer (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(100),
+  geburtsdatum DATE,
+  wohnort VARCHAR(100),
+  status VARCHAR(50) -- z. B. 'beeinflussbar', 'neutral'
+);
+
+-- Tabelle: Emotionale Zustände
+CREATE TABLE emotionen (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  benutzer_id INT,
+  typ VARCHAR(50), -- z. B. 'ängstlich', 'einsam', 'zufrieden'
+  intensitaet INT, -- 1 bis 10
+  zeitstempel DATETIME,
+  FOREIGN KEY (benutzer_id) REFERENCES benutzer(id)
+);
+
+-- Tabelle: Posts auf EmoCloud
+CREATE TABLE posts (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  benutzer_id INT,
+  inhalt TEXT,
+  stimmung VARCHAR(50),
+  zeitstempel DATETIME,
+  FOREIGN KEY (benutzer_id) REFERENCES benutzer(id)
+);
+
+-- Tabelle: Likes
+CREATE TABLE likes (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  benutzer_id INT,
+  kategorie VARCHAR(100), -- z. B. 'Verschwörung', 'Selbsthilfe'
+  ziel_id INT, -- ID des geliketen Objekts (Post, Werbung, etc.)
+  typ VARCHAR(50), -- z. B. 'post', 'werbung'
+  zeitstempel DATETIME,
+  FOREIGN KEY (benutzer_id) REFERENCES benutzer(id)
+);
+
+-- Tabelle: Geräte
+CREATE TABLE geraete (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  benutzer_id INT,
+  geraetetyp VARCHAR(100), -- z. B. 'iPhone', 'SmartTV'
+  betriebssystem VARCHAR(100),
+  letzter_zugriff DATETIME,
+  FOREIGN KEY (benutzer_id) REFERENCES benutzer(id)
+);
+
+-- Tabelle: Tracking-Verhalten
+CREATE TABLE tracking (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  benutzer_id INT,
+  seite VARCHAR(255),
+  dauer_sekunden INT,
+  uhrzeit TIME,
+  datum DATE,
+  FOREIGN KEY (benutzer_id) REFERENCES benutzer(id)
+);
+
+-- Tabelle: E-Commerce-Käufe
+CREATE TABLE einkaeufe (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  benutzer_id INT,
+  produkt VARCHAR(255),
+  preis DECIMAL(6,2),
+  kategorie VARCHAR(100),
+  stimmung_vorher VARCHAR(50),
+  stimmung_nachher VARCHAR(50),
+  datum DATE,
+  FOREIGN KEY (benutzer_id) REFERENCES benutzer(id)
+);
