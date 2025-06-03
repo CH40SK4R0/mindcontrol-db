@@ -1,13 +1,11 @@
 # 🕸 MANIFEST.md
 ## Ein Manifest für die Aufklärung im Zeitalter der Algorithmen
 
+
 SYSTEM STATUS: HUMANITY_BOOT > OK
 USER INPUT: wake_up --mode collective
 INITIALIZING [DIGITAL_AUFKLAERUNG_PROTOCOL] ...
 
-markdown
-Kopieren
-Bearbeiten
 
 > Wir leben mitten in der Veränderung.  
 > Nicht am Anfang. Nicht am Ende. **Mitten drin.**
@@ -18,9 +16,6 @@ shareKnowledge();
 stayHuman();
 }
 
-yaml
-Kopieren
-Bearbeiten
 
 ### 📡 Was passiert hier eigentlich?
 
@@ -32,25 +27,8 @@ aber wissen selten, was dahintersteht.
 Das ist kein Vorwurf.  
 Es ist ein **Weckruf**.
 
----
 
-### 👁‍🗨 Wir sagen:
-
-"I don't know everything. But I want to understand."
-
-yaml
-Kopieren
-Bearbeiten
-
-Und das reicht.
-
-> Kein Studium. Kein Titel. Kein Passwort.  
-> Nur ein Gedanke:  
-> **"Ich will mitreden."**
-
----
-
-### 👥 Wir sind viele
+### Wir sind viele
 
 - Lehrer:innen, Handwerker:innen, Eltern, Schüler:innen  
 - Fragende, Suchende, Denkende  
@@ -63,13 +41,8 @@ collective_identity
 user.type != "consumer"
 user.type == "human"
 
-yaml
-Kopieren
-Bearbeiten
 
----
-
-### 💡 Was wir glauben:
+### 💡 Was ich glaube:
 
 - Jeder Mensch darf Technik verstehen dürfen.  
 - Wahrheit ist kein Algorithmus.  
@@ -77,29 +50,7 @@ Bearbeiten
 - Digitale Bildung ist ein Menschenrecht.  
 - Gestaltung beginnt mit Mitgefühl.
 
----
-
-### 🔧 Was wir tun können:
-
-Fragen stellen
-
-Gemeinsam lernen
-
-Wissen teilen
-
-Zuhören
-
-Systeme hinterfragen
-
-Technologien menschlich gestalten
-
-yaml
-Kopieren
-Bearbeiten
-
----
-
-### 🚀 Warum jetzt?
+### Warum jetzt?
 
 Weil die Zukunft nicht „passiert“.  
 Sie wird **gestaltet**.  
@@ -107,12 +58,6 @@ Von denen, die hinsehen.
 Von denen, die anfangen.
 
 > Und anfangen heißt: **ein Gespräch. Eine Frage. Ein Satz.**
-
-"Ich will verstehen, was um mich herum geschieht."
-
-yaml
-Kopieren
-Bearbeiten
 
 That’s it.  
 That’s the start.  
@@ -123,8 +68,6 @@ That’s the code.
 EXECUTION COMPLETE
 ✨ SYSTEM READY FOR PARTICIPATION
 
-Kopieren
-Bearbeiten
 
 🜂🜄🜁🜃  
 
