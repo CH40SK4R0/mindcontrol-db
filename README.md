@@ -1,3 +1,17 @@
+# 🕶️ Willkommen in der Datenstruktur der Verdammten
+
+Dies ist keine Demo.  
+Dies ist eine Rekonstruktion deiner digitalen Existenz.  
+
+Wer bist du in der Datenbank?  
+Wann warst du emotional am leichtesten zu lenken?  
+Wie viele Sekunden hat man dich beobachtet?
+
+Willkommen bei **mindcontrol-db**  
+> *Ein datenbasiertes Kunstwerk gegen algorithmische Manipulation.*
+
+
+
 # 🧠 mindcontrol-db
 
 > *Ein künstlerisch-aufklärerisches Projekt über Datenstrukturen, Datensammlung und digitale Einflussnahme.*
